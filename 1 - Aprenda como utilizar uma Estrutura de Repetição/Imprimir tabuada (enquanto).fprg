@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SUPORTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 09:06:45 "/>
+        <attribute name="created" value="U1VQT1JURTtTVVBPUlRFOzIwMjEtMDYtMjY7IjA4OjQwOjEzICI7MjMxNA=="/>
+        <attribute name="edited" value="U1VQT1JURTtTVVBPUlRFOzIwMjEtMDYtMjY7IjA5OjA2OjQ1ICI7MjsyNDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, calcular" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero &lt;= limite">
+                <output expression="&quot;Contagem Atual 9 x &quot; &amp; numero" newline="True"/>
+                <assign variable="calcular" expression="9*numero"/>
+                <output expression="&quot;Resultado&quot; &amp; calcular" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

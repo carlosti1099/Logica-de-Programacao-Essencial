@@ -1,0 +1,3 @@
+Digite o seu nome:
+carlos
+O seu nome é: carlos
